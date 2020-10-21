@@ -3,6 +3,8 @@ from pathlib import Path
 #settings.pyからそのままコピー
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+SECRET_KEY = 'de12'
+
 #settings.pyからそのままコピー
 DATABASES = {
     'default': {
